@@ -17,38 +17,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="5" />
+            android:hint="숫자를 입력하세요"
+            android:inputType="number|textPersonName" />
 
         <TextView
-            android:id="@+id/tv"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="+" />
+            android:text="부터" />
 
         <EditText
             android:id="@+id/et2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:text="10" />
+            android:hint="숫자를 입력하세요"
+            android:inputType="number|textPersonName" />
 
         <Button
             android:id="@+id/btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="=" />
+            android:text="별찍기" />
 
-        <EditText
-            android:id="@+id/et3"
+        <TextView
+            android:id="@+id/tv"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:text="" />
+            android:layout_height="358dp" />
+
     </LinearLayout>
 
 
