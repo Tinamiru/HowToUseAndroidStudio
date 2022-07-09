@@ -4,6 +4,13 @@ plugins {
 }
 
 android {
+
+    dataBinding {
+        enabled true
+    }
+    buildFeatures {
+        dataBinding = true
+    }
     compileSdk 32
 
 

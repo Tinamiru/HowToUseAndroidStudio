@@ -21,12 +21,15 @@ class MainActivity6 : AppCompatActivity() {
         btn.setOnClickListener {
             val lotto = Array(45,{i->i+1})
             lotto.shuffle()
-            tv1.text = lotto[0].toString()
-            tv2.text = lotto[1].toString()
-            tv3.text = lotto[2].toString()
-            tv4.text = lotto[3].toString()
-            tv5.text = lotto[4].toString()
-            tv6.text = lotto[5].toString()
+            val result = arrayOf(lotto[0],lotto[1],lotto[2],lotto[3],lotto[4],lotto[5])
+
+            result.sort()
+            tv1.text = result[0].toString()
+            tv2.text = result[1].toString()
+            tv3.text = result[2].toString()
+            tv4.text = result[3].toString()
+            tv5.text = result[4].toString()
+            tv6.text = result[5].toString()
 
 
         }
